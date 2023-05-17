@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class CartHeaderComponent {
   title = 'Shopping Cart';
-  numberItems = 4;
+  numberItems: number = 4;
 }
